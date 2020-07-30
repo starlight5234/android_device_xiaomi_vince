@@ -221,6 +221,18 @@ ro.telephony.use_old_mnc_mcc_format=true \
 service.qti.ims.enabled=1 \
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
+# Ram Management
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.fha_enable=true \
+ro.sys.fw.bg_apps_limit=32 \
+ro.config.dha_cached_max=16 \
+ro.config.dha_empty_max=42 \
+ro.config.dha_empty_init=32 \
+ro.config.dha_lmk_scale=0.545 \
+ro.config.dha_th_rate=2.3 \
+ro.config.sdha_apps_bg_max=64 \
+ro.config.sdha_apps_bg_min=8
+
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
