@@ -241,7 +241,7 @@ wifi.interface=wlan0
 
 # Wifi-Display
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.sys.wfd.virtual=10
+persist.sys.wfd.virtual=0
 
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
