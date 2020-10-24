@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_vince.mk
+    $(LOCAL_DIR)/stormbreaker_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_vince-user \
-    revengeos_vince-userdebug \
-    revengeos_vince-eng
+    stormbreaker_vince-user \
+    stormbreaker_vince-userdebug \
+    stormbreaker_vince-eng
